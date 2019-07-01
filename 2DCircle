@@ -1,5 +1,6 @@
 FeatureScript 1096;
 import(path : "onshape/std/geometry.fs", version : "1096.0");
+
 // Create circle
 annotation { "Feature Type Name" : "Freaking Circle" }
 export const frknCircle = defineFeature(function(context is Context, id is Id, definition is map)
@@ -17,6 +18,7 @@ export const frknCircle = defineFeature(function(context is Context, id is Id, d
         });
         skSolve(sketch1);
         });
+
 // Create arcs
 annotation { "Feature Type Name" : "My Arc" }
 export const myArc = defineFeature(function(context is Context, id is Id, definition is map)
