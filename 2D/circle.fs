@@ -84,7 +84,7 @@ export const frknCircle = defineFeature(function(context is Context, id is Id, d
         skArc(sketch8, "arc8", {
                 "start" : vector(0, 0) * millimeter,
                 "mid" : vector(-25, -45) * millimeter,
-                "end" : vector(-34, -36) * millimeter
+                "end" : vector(-34.6, -36) * millimeter
         });
         skSolve(sketch1);
         skSolve(sketch2);
