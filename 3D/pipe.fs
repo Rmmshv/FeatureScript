@@ -81,7 +81,7 @@ function sketchPipe(context is Context, id is Id)
         });
         skArc(sketch1, "arc1", {
                     "start" : vector(0, -50) * millimeter,
-                    "mid" : vector(-45, -149) * millimeter,
+                    "mid" : vector(-45, -148.8) * millimeter,
                     "end" : vector(-60, -160) * millimeter
             });
         skSolve(sketch0);
