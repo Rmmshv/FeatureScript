@@ -173,7 +173,7 @@ export const myMirror = defineFeature(function(context is Context, id is Id, def
     
 /***
  * First we're making a sketch line that will be used as the axis for our circular pattern.
- * Then we're choosing entitie to pattern and the feature makes 6 copies of it.
+ * Then we're choosing entity to pattern and the feature makes 6 copies of it.
 ***/
 
 annotation { "Feature Type Name" : "Circular Pattern" }
